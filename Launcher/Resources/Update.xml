@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Manifest version="1">
+  <!-- Your application will check for updates every (seconds) -->
+  <CheckInterval>900</CheckInterval>
+  <!-- The URI to the remote manifest -->
+  <RemoteConfigUri>http://192.168.0.1/path_to/current_release/Update.xml</RemoteConfigUri>
+  <!-- This token must be the same at both ends to avoid tampering -->
+  <SecurityToken>00000000-0000-0000-0000-000000000000</SecurityToken>
+  <!-- All payload files are assumed to have this URI prefix. -->
+  <BaseUri>https://website.url/path_to/current_release/</BaseUri>
+  <!-- One or more files containing updates. -->
+  <Payload>UpdatePackage.zip</Payload>
+</Manifest>

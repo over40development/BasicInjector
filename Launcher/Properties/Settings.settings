@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Launcher.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GTAClient" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RETAIL</Value>
+    </Setting>
+    <Setting Name="AutoClose" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://192.168.0.1</Value>
+    </Setting>
+    <Setting Name="License" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Login" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/login.php</Value>
+    </Setting>
+    <Setting Name="URL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/path_to/current_release/menu.mnu</Value>
+    </Setting>
+    <Setting Name="HomepageURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://website.url</Value>
+    </Setting>
+    <Setting Name="UserAgent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Custom User Agent</Value>
+    </Setting>
+    <Setting Name="BaseURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://website-base.url</Value>
+    </Setting>
+    <Setting Name="BaseAuth" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/path_to/endpoint.php</Value>
+    </Setting>
+    <Setting Name="UpdateURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/path_to/menu_release/</Value>
+    </Setting>
+    <Setting Name="ManifestVersion" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Manifest" Type="System.Xml.XmlDocument" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;Manifest version="1"&gt;
+  &lt;!-- Your application will check for updates every (seconds) --&gt;
+  &lt;CheckInterval&gt;900&lt;/CheckInterval&gt;
+  &lt;!-- The URI to the remote manifest --&gt;
+  &lt;RemoteConfigUri&gt;http://192.168.0.1/path_to/current_release/Update.xml&lt;/RemoteConfigUri&gt;
+  &lt;!-- This token must be the same at both ends to avoid tampering --&gt;
+  &lt;SecurityToken&gt;00000000-0000-0000-0000-000000000000&lt;/SecurityToken&gt;
+  &lt;!-- All payload files are assumed to have this URI prefix. --&gt;
+  &lt;BaseUri&gt;https://website.url/path_to/current_release/&lt;/BaseUri&gt;
+  &lt;!-- One or more files containing updates. --&gt;
+  &lt;Payload&gt;UpdatePackage.zip&lt;/Payload&gt;
+&lt;/Manifest&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
